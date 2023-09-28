@@ -9,7 +9,7 @@ trigger:
 pool: 
   name: mypool1
   demands:
-    - agent.name -equals build-deploy-agent
+    - agent.name -equals my-agent
   
 steps:
 - task: Maven@3
