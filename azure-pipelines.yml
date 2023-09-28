@@ -7,8 +7,8 @@ trigger:
 - main
 
 pool:
-  mypool1: build-deploy-agent
-
+  name: mypool1
+  
 steps:
 - task: Maven@3
   inputs:
