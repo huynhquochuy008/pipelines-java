@@ -10,7 +10,7 @@ trigger:
 pool: 
   name: mypool1
   demands:
-    - agent.name -equals my-agent
+    - agent.name -equals linux-agent
   
 steps:
 - task: Bash@3
