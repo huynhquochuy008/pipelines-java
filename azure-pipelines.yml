@@ -25,6 +25,7 @@ steps:
       git --version
       java --version
       javac --version
+      pwd 
 # - task: Maven@4
 #   inputs:
 #     mavenPomFile: 'pom.xml'
