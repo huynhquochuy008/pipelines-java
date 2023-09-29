@@ -19,8 +19,6 @@ steps:
     script: |
       # Write your commands here
       
-      echo 'Hello world'
-      env
       mvn --version
       git --version
       java --version
